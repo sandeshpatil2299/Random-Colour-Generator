@@ -1,0 +1,41 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: cursive;
+}
+body
+{
+   height: 100vh;
+}
+.container h1
+{
+   margin: 1em;
+   text-align: center;
+   font-size: 2.5rem;
+   letter-spacing: 1px;
+}
+.colorContainer
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 1em;
+   margin: 0 2em;
+}
+.color
+{
+   width: 250px;
+   height: 150px;
+   border: 3px solid black;
+   display: grid;
+   place-items: center;
+   font-size: 1.5rem;
+   font-weight: 600;
+   background-color: orange;
+   color: #fff;
+   border-radius: 0.3em;
+   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
